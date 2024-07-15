@@ -8,7 +8,7 @@ __Note:__ This SCC is a copy of the default `container-build` SCC which is bundl
 cat << EOF | oc apply -f -
 apiVersion: security.openshift.io/v1
 metadata:
-  name: nested-podman-scc
+  name: image-build-scc
 allowHostDirVolumePlugin: false
 allowHostIPC: false
 allowHostNetwork: false
